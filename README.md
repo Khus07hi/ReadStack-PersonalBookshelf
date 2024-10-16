@@ -44,9 +44,8 @@
 
 ##  Visual Preview
 
-https://github.com/Khus07hi/ReadStack-PersonalBookshelf/blob/main/src/assets/VisualPreview(1).mp4
-
-https://github.com/Khus07hi/ReadStack-PersonalBookshelf/blob/main/src/assets/VisualPreview(2).mp4
+![Visual Preview 1](https://github.com/Khus07hi/ReadStack-PersonalBookshelf/blob/main/src/assets/VisualPreview(1).mp4)
+![Visual Preview 2](https://github.com/Khus07hi/ReadStack-PersonalBookshelf/blob/main/src/assets/VisualPreview(2).mp4)
 
 
 ---
