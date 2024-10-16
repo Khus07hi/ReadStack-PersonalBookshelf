@@ -1,0 +1,58 @@
+.my-notes-container {
+  width: 100%;
+  min-height: calc(100vh - 4.5rem);
+  padding: 0 2rem 1rem;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+.my-notes-container .book-notes-selection {
+  margin: 1rem 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.my-notes-container .book-notes-selection .link {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #5d0085;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.my-notes-container.dark-mode {
+  background-color: #1f1f1f;
+}
+.my-notes-container.dark-mode .book-notes-selection .link {
+  color: #c20aff;
+}
+
+@media (hover: hover) {
+  .my-notes-container .book-notes-selection .link:hover {
+    background-color: #5d0085;
+    color: #ffffff;
+  }
+  .my-notes-container.dark-mode .book-notes-selection .link:hover {
+    background-color: #c20aff;
+    color: #1f1f1f;
+  }
+}
+@media (max-width: 500px) {
+  .my-notes-container {
+    padding: 0 1rem 1rem;
+  }
+  .my-notes-container .book-notes-selection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 0.5rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}/*# sourceMappingURL=myNotes.css.map */

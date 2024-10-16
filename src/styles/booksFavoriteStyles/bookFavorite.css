@@ -1,0 +1,108 @@
+.books-favorite-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 2rem 1rem;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+.books-favorite-container .category-book {
+  margin: 1rem 0;
+  color: #5d0085;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  row-gap: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.books-favorite-container .category-book img {
+  width: 1.6rem;
+}
+.books-favorite-container .display-favorite-books {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 2.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.books-favorite-container .display-favorite-books .books-displayed {
+  position: relative;
+}
+.books-favorite-container .display-favorite-books .books-displayed img {
+  width: 8rem;
+  height: 12rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(128, 128, 128, 0.3), -0.1rem -0.1rem 0.5rem rgba(128, 128, 128, 0.3);
+  position: relative;
+  z-index: 2;
+}
+.books-favorite-container .display-favorite-books .books-displayed .see-and-delete-icons {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  row-gap: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.books-favorite-container .display-favorite-books .books-displayed .see-and-delete-icons img {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.books-favorite-container.dark-mode {
+  background-color: #1f1f1f;
+}
+.books-favorite-container.dark-mode h3 {
+  color: #c20aff;
+}
+
+@media (hover: hover) {
+  .books-favorite-container h3 img:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  .books-favorite-container .display-favorite-books .books-displayed:hover {
+    scale: 1.1;
+    transition: 0.3s;
+  }
+  .books-favorite-container .display-favorite-books .books-displayed .see-and-delete-icons img:hover {
+    cursor: pointer;
+    scale: 1.1;
+    z-index: 1;
+  }
+}
+@media (max-width: 500px) {
+  .books-favorite-container {
+    padding: 0 1rem 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .books-favorite-container .display-favorite-books {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    row-gap: 2.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .books-favorite-container .category-book {
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=bookFavorite.css.map */
