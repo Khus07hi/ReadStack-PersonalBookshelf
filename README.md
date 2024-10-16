@@ -42,13 +42,16 @@
 
 ---
 
+
+
+
+
 ##  Visual Preview
 
 
-[![Visual Preview 1](https://github.com/Khus07hi/ReadStack-PersonalBookshelf/assets/VisualPreview(1).mp4)](https://raw.githubusercontent.com/Khus07hi/ReadStack-PersonalBookshelf/main/src/assets/VisualPreview(1).mp4)
+https://github.com/user-attachments/assets/fce7de8a-560e-479d-9d5b-e0041ad2c604
 
-[![Visual Preview 2](https://github.com/Khus07hi/ReadStack-PersonalBookshelf/assets/VisualPreview(2).mp4)](https://raw.githubusercontent.com/Khus07hi/ReadStack-PersonalBookshelf/main/src/assets/VisualPreview(2).mp4)
-
+https://github.com/user-attachments/assets/6465614e-9d9e-4f9f-8e41-7d73376bd868
 
 
 ---
